@@ -1,0 +1,49 @@
+/* ---------------------------- Classes CSS  --------------------------------*/
+
+/* main CSS */
+.container {
+    text-align: center;
+    align-content: center;
+}
+
+.container2 {
+    text-align: center;
+}
+
+/* Nav space bar */
+.navspace{
+    background-color: black;
+}
+
+/* -------------------   id CSS  -------------------------*/
+
+/* navbar CSS */
+#navtitle{
+    font-size: 30px;
+}
+
+#navbar ul{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 10% 10% 10% 10%;
+    background-color: grey;
+    list-style: none;
+    font-size: 25px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* calculator */
+#answer{
+    font-size: 30px;
+    color: purple;
+}
+
+/*  name organizer */
+#namesArray {
+    font-size: 25px;
+}
+

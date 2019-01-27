@@ -1,0 +1,43 @@
+/* tags CSS-------------------- */
+body{
+    background-color: grey;
+}
+
+/* -------------------------- Classes  CSS ---------------*/
+/* navbar classes CSs */
+
+
+/* -------------------------  id CSS --------------------*/
+/* navbar CSS */
+#navbar .navbar-header{
+    color: gold;
+}
+
+#navbar .navbar-brand {
+    color: gold;
+}
+
+#navbar a {
+    color:gold;
+
+}
+
+#navbar ul {
+    color:gold;
+}
+
+/* carousel CSS */
+#carouselIndicators img {
+    width: 100%;
+    height: 350px;
+}
+
+#carouselIndicators .carousel-inner>.carousel-item{
+.transition(.1s ease-in-out left);
+}
+
+#carouselIndicators2 img {
+    width: 100%;
+    height: 350px;
+}
+

@@ -16,9 +16,10 @@
     </head>
     <body>
 
+        <!-- Navbar -->
         <div id="navbar">
             <ul>
-                <li id="navtitle"></li>
+                <li id="navtitle">47</li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">services</a></li>
@@ -26,7 +27,32 @@
             </ul>
         </div>
 
-        <script src="js/index.js"></script>
+        <!-- Calculator -->
+        <div class="container">
+            <h2>Calculator</h2>
+            <label for="number1">Frist number:</label>
+            <input type="number" id="number1" name="number1"><br><br>
+            <label for="number2">Second number:</label>
+            <input type="number" id="number2" name="number2"><br><br>
+            <button name="Add" type="button" onclick="add()">Add</button>
+            <button name="subtract" type="button" onclick="subtract()">subtract</button>
+            <button name="multiply" type="button" onclick="multiply()">multiply</button>
+            <button name="divide" type="button" onclick="divide()">divide</button><br><br>
+            <div id="answer"></div>
+        </div>
 
+        <hr>
+
+        <!-- name -->
+        <div class="container2">
+            <h2>Name Organizer Alphabetically</h2>
+            <div id="namesArray"></div><br>
+            <label for="names">Enter a Name</label>
+            <input type="text" id="names"><br><br>
+            <button type="button" onclick="array()">Button</button>
+        </div>
+
+        <script src="js/index.js"></script>
+        <script src="js/FizzBuzz.js"></script>
     </body>
 </html>
